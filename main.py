@@ -1,11 +1,11 @@
-# Episode 1 ->
-
 import discord
 import os
 from discord.ext import commands
 from typing import Union
 
 bot = commands.Bot(command_prefix = "$")
+
+# Episode 1 ->
 
 @bot.event
 async def on_ready():
